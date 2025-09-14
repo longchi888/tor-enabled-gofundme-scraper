@@ -4,7 +4,7 @@ status: backlog
 created: 2025-09-14T22:12:11Z
 progress: 0%
 prd: .claude/prds/tor-enabled-gofundme-scraper.md
-github: [Will be updated when synced to GitHub]
+github: https://github.com/longchi888/tor-enabled-gofundme-scraper/issues/1
 ---
 
 # Epic: tor-enabled-gofundme-scraper
@@ -151,14 +151,14 @@ hashlib                  # 文件命名
 - **兼容性风险**: 预留1天进行输出格式的精确匹配调试
 
 ## Tasks Created
-- [ ] 001.md - 安全层集成 - 将NetworkSecurity迁移到Crawl4AI代理配置 (parallel: true)
-- [ ] 002.md - 配置系统重构 - 实现GoFundMeScraperConfig统一配置管理 (parallel: true)
-- [ ] 003.md - 双端爬取引擎 - 基于AsyncWebCrawler的桌面/移动模式实现 (parallel: false)
-- [ ] 004.md - 深度内容提取 - 保持3分钟等待和交互激活的Crawl4AI策略版本 (parallel: false)
-- [ ] 005.md - 智能数据提取 - LLM策略实现关键区域的结构化提取 (parallel: true)
-- [ ] 006.md - 资源收集重构 - 利用Crawl4AI内置功能简化资源下载逻辑 (parallel: true)
-- [ ] 007.md - 输出格式兼容 - 确保JSON/HTML输出与现有脚本完全一致 (parallel: false)
-- [ ] 008.md - 集成测试验证 - 全功能对比测试和安全性验证 (parallel: false)
+- [ ] #2 - 安全层集成 - 将NetworkSecurity迁移到Crawl4AI代理配置 (parallel: true)
+- [ ] #3 - 配置系统重构 - 实现GoFundMeScraperConfig统一配置管理 (parallel: true)
+- [ ] #4 - 双端爬取引擎 - 基于AsyncWebCrawler的桌面/移动模式实现 (parallel: false)
+- [ ] #5 - 深度内容提取 - 保持3分钟等待和交互激活的Crawl4AI策略版本 (parallel: false)
+- [ ] #6 - 智能数据提取 - LLM策略实现关键区域的结构化提取 (parallel: true)
+- [ ] #7 - 资源收集重构 - 利用Crawl4AI内置功能简化资源下载逻辑 (parallel: true)
+- [ ] #8 - 输出格式兼容 - 确保JSON/HTML输出与现有脚本完全一致 (parallel: false)
+- [ ] #9 - 集成测试验证 - 全功能对比测试和安全性验证 (parallel: false)
 
 Total tasks: 8
 Parallel tasks: 4 (001, 002, 005, 006)
